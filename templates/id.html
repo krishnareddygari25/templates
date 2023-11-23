@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header
+        {
+            color:beige;
+            background-color: black;
+        }
+        #section
+        {
+            color: green;
+        }
+        #footer{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">hello</h1>
+    <h1 id="section">hi</h1>
+    <h1 id="footer">bye</h1>
+    <img src="{% static 'images/heros.jpg' %}" alt="no images">
+</body>
+</html>

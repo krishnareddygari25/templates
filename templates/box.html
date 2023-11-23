@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one
+        {
+            background-color: aquamarine;
+            color: red;
+            width: 500px;
+            padding-top:40px ;
+            padding-right: 40px;
+            padding-bottom: 40px;
+            padding-left: 40px;
+        border: 10px solid red;
+        margin-top: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+        }
+        img{
+            width:500px;
+            height:500px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="one"> heros
+    <img src="{% static 'images/heros.jpg' %}" alt="not found">
+    </div>
+</body>
+</html>
